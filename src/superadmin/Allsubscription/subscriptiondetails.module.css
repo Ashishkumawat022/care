@@ -1,0 +1,69 @@
+.cardBox h5 {
+  font-size: 20px;
+  border-bottom: 1px solid #9e9999;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.cardBox {
+  margin-bottom: 40px;
+}
+
+.cardBox ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 28px;
+}
+
+.cardBox ul div li a {
+  float: right;
+  margin-right: 6px;
+}
+
+.cardBox .editIcon {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.page-wrapper {
+  margin-left: 10px !important;
+  padding-top: 0px !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.cardBox ul li {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+/* .cardBox ul li input {
+  border: none;
+  width: 36%;
+  height: 22px;
+} */
+
+.cardBox ul li span {
+  width: 84px;
+  height: 22px;
+  margin-left: 5px;
+}
+
+.cardBox ul li div input[type="date"] {
+  font-family: Arial, sans-serif;
+  border: none;
+  width: 102px;
+  font-size: 15px;
+ }
+
+ .cardBox.times input[type="date"] {
+  font-family: Times, Arial, sans-serif;
+ }

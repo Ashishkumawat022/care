@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="Bell_icons" transform="translate(-13 -191)">
+    <g id="Ellipse_42" data-name="Ellipse 42" transform="translate(13 191)" fill="#be75d8" stroke="#be75d8" stroke-width="1">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="22" fill="none"/>
+    </g>
+    <path id="Icon_metro-warning" data-name="Icon metro-warning" d="M13.483,3.905l9.145,18.227H4.337L13.483,3.905Zm0-1.977a1.577,1.577,0,0,0-1.3.952L2.87,21.445c-.714,1.269-.107,2.307,1.349,2.307H22.747c1.456,0,2.063-1.038,1.349-2.307h0L14.78,2.88a1.577,1.577,0,0,0-1.3-.952ZM14.847,19.66A1.364,1.364,0,1,1,13.483,18.3,1.364,1.364,0,0,1,14.847,19.66Zm-1.364-2.728a1.364,1.364,0,0,1-1.364-1.364V11.476a1.364,1.364,0,1,1,2.728,0v4.092A1.364,1.364,0,0,1,13.483,16.932Z" transform="translate(22.429 200.072)" fill="#fff"/>
+  </g>
+</svg>

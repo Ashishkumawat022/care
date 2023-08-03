@@ -1,0 +1,327 @@
+.demo-app {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.demo-app-top {
+  margin: 0 0 3em;
+}
+
+.demo-app-calendar {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+
+.btns_head .btn {
+  background-image: linear-gradient(to right, var(--main), var(--main2));
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+  padding: 5px 15px;
+}
+
+.btn_table.btn-success {
+  height: 26px;
+  line-height: 1px;
+  font-size: 12px;
+}
+
+.profile_img_table {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.profle_img_box {
+  margin-left: 5px;
+}
+
+.cts_datatable {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.table_arrow {
+  font-size: 34px;
+  position: absolute;
+  right: 10px;
+  color: #616161;
+  top: -3px;
+  padding: 0px 10px;
+}
+
+.ag-theme-alpine .ag-cell,
+.ag-theme-alpine .ag-full-width-row .ag-cell-wrapper.ag-row-group {
+  line-height: 53px !important;
+}
+
+.ag-theme-alpine [class^="ag-"],
+.ag-theme-alpine [class^="ag-"]:focus,
+.ag-theme-alpine [class^="ag-"]:after,
+.ag-theme-alpine [class^="ag-"]:before {
+  justify-content: center !important;
+}
+
+.ag-theme-alpine .ag-ltr .ag-cell {
+  text-align: center !important;
+}
+
+.ract_tab_list li .nav-link {
+  background: transparent;
+  font-weight: 500;
+  color: #6b6b6b;
+  border: none;
+  border-bottom: 2px solid #b3b3b3;
+  padding: 5px 15px;
+}
+
+.ract_tab_list li .nav-link.active,
+.ract_tab_list li .nav-link:hover,
+.ract_tab_list li .nav-link:focus {
+  background: transparent;
+  border: none;
+  color: var(--main);
+  border-bottom: 2px solid var(--main);
+}
+
+.table_half tr td {
+  width: 50%;
+}
+
+.table tr:nth-child(odd) td {
+  background: #fafafa;
+  box-shadow: none;
+}
+
+.table tr td {
+  border: none;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.tb_title {
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  color: var(--main);
+}
+
+.ract_tab_data {
+  padding-top: 30px;
+}
+
+.seprate_line {
+  border-right: 1px solid var(--main);
+}
+
+.table> :not(:first-child) {
+  border-top: 1px solid #dddddd;
+}
+
+.table>thead tr th {
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  padding: 10px 15px;
+  color: var(--main);
+}
+
+.top_menubar .nav-tabs {
+  float: left;
+}
+
+.top_menubar {
+  display: inline-block;
+  width: 100%;
+}
+
+.care_plan_list .accordion-item .accordion-header .accordion-button {
+  padding: 15px 2px;
+  border-radius: 0px;
+}
+
+.care_plan_list .accordion-item {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #dedede;
+}
+
+.care_plan_list .accordion-item .accordion-header .accordion-button img {
+  margin-right: 10px;
+}
+
+.care_plan_list .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  background: transparent;
+  border: none;
+  color: #000;
+  box-shadow: none;
+}
+
+.care_plan_list .accordion-item .accordion-header .accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btns_head .filter_icon {
+  font-size: 21px;
+  margin-left: 13px;
+}
+
+.care_plan_list .accordion-body {
+  padding: 10px 0px;
+}
+
+.wellbeign_list .filter_icon {
+  font-size: 22px;
+  margin-left: 12px;
+  line-height: 27px;
+}
+
+.wellbeign_list input,
+.wellbeign_list input:focus {
+  padding: 6px 15px;
+  border: none !important;
+  border-radius: 5px;
+  outline: none;
+}
+
+.table.resource-table {
+  text-align: left !important;
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  right: 100%;
+  top: 0px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+
+.dropdown-menu>li:hover>.dropdown-submenu {
+  display: block;
+}
+
+.multiDrop .dropdown-menu li a {
+  font-size: 14px;
+  padding: 10px 10px;
+}
+
+.multiDrop .dropdown-menu {
+  padding: 2px 0px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.multiDrop .dropdown-menu li a svg {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #918f8f;
+}
+
+.actionTable {
+  display: flex;
+}
+
+.actionTable .edit,
+.actionTable .delete {
+  width: 25px;
+  background: #9e61e7;
+  height: 25px;
+  color: #fff;
+  text-align: center;
+  line-height: 23px;
+  padding: 0px;
+  border-radius: 50px;
+  font-size: 13px;
+  margin: 0px 3px;
+  cursor: pointer;
+}
+
+.statusBox li span {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.statusBox {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 8px;
+  align-items: center;
+
+}
+
+.statusBox li {
+  margin-bottom: 3px;
+  display: inline-block;
+  margin-right: 60px;
+  font-size: 14px;
+}
+
+.bg_popup {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed !important;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.modalHide {
+  left: -100%;
+  transition: 0.9s;
+}
+
+.modalHide .bg_popup {
+  left: -100%;
+  transition: 0.9s;
+}
+
+.modalShow {
+  transition: 0.9s;
+}
+
+.modalHide2 {
+  display: none;
+}
+
+.modalHide2 .bg_popup {
+  display: none;
+}
+
+.modalHide2.modalShow2 {
+  display: block;
+}
+
+.modalHide2.modalShow2 .bg_popup {
+  display: block;
+}
+
+.sechudleCard p {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.sechudleCard h5 {
+  margin: 0;
+}
+
+.completedcount {
+  margin: 0px;
+  padding: 5px 0px;
+  border-radius: 5px;
+}

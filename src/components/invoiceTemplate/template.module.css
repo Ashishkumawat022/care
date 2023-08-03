@@ -1,0 +1,62 @@
+.invoiceBody {
+  margin: 0 auto;
+}
+
+.invoiceBody :global(.form-control) {
+  margin-bottom: 15px;
+}
+
+.invoiceBody .right ul,
+.invoiceBody .left ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.invoiceBody .right ul li,
+.invoiceBody .left ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.invoiceBody h5 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+.printSection {
+  padding-bottom: 50px;
+}
+.printSection ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.printSection ul.formbox li :global(.form-control){
+  border: 1px solid #c7c7c7;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+
+.printSection ul.formbox li :global(.form-control):focus{
+  box-shadow: none;
+}
+.printSection .table {
+  margin-top: 30px;
+}
+.printSection .table th {
+  border-top: none;
+  padding: 10px 0px;
+}
+.printSection .table td {
+  padding: 10px 0px;
+}
+.logoBox {
+  background: #d87ac6;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translate(-0%, -50%);
+  color: #fff;
+  padding: 15px 15px;
+}

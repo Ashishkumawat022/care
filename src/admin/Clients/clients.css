@@ -1,0 +1,776 @@
+.btns_head .btn {
+  background-image: linear-gradient(to right, var(--main), var(--main2));
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+  padding: 8px 15px;
+  border-radius: 50px;
+  min-width: 100px;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.btn_table.btn-success {
+  height: 26px;
+  line-height: 1px;
+  font-size: 12px;
+}
+
+.profile_img_table {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.profle_img_box stong {
+  margin-left: 5px;
+}
+
+.cts_datatable {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.table.popupTbleList > thead tr th {
+  color: #222;
+}
+
+.table_arrow {
+  font-size: 34px;
+  position: absolute;
+  right: 10px;
+  color: #616161;
+  top: -3px;
+  padding: 0px 10px;
+}
+
+.ag-theme-alpine .ag-cell,
+.ag-theme-alpine .ag-full-width-row .ag-cell-wrapper.ag-row-group {
+  line-height: 53px !important;
+}
+
+.ag-theme-alpine [class^="ag-"],
+.ag-theme-alpine [class^="ag-"]:focus,
+.ag-theme-alpine [class^="ag-"]:after,
+.ag-theme-alpine [class^="ag-"]:before {
+  justify-content: center !important;
+}
+
+.ag-theme-alpine .ag-ltr .ag-cell {
+  text-align: center !important;
+}
+
+.ract_tab_list li .nav-link {
+  background: transparent;
+  font-weight: 500;
+  color: #6b6b6b;
+  border: none;
+  border-bottom: 2px solid #b3b3b3;
+  padding: 5px 15px;
+}
+
+.ract_tab_list li .nav-link.active,
+.ract_tab_list li .nav-link:hover,
+.ract_tab_list li .nav-link:focus {
+  background: transparent;
+  border: none;
+  color: var(--main);
+  border-bottom: 2px solid var(--main);
+}
+
+.table_half tr td {
+  width: 50%;
+}
+
+.table tr:nth-child(odd) td {
+  background: #fafafa;
+  box-shadow: none;
+}
+
+.table tr td {
+  border: none;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.tb_title {
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  color: var(--main);
+  text-align: right;
+}
+
+.addPlus .dropdown-toggle {
+  font-size: 52px;
+  color: #bdbdbd;
+  width: 100px;
+  border: 1px solid #bbb2b2;
+  margin-top: 20px;
+  text-align: center;
+  height: 107px;
+  line-height: 80px;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0px;
+  background: #fff;
+}
+
+.addPlus .dropdown-toggle:focus {
+  color: #bdbdbd;
+  background: #fff !important;
+  box-shadow: none !important;
+}
+
+.addPlus .dropdown-menu {
+  min-width: 450px;
+  padding: 15px 15px;
+}
+
+.addPlus .dropdown-toggle::after {
+  display: none;
+}
+
+.addPlus .dropdown-menu .actionBtns {
+  display: flex;
+  justify-content: end;
+}
+
+.addPlus .dropdown-menu .living_box:focus {
+  border: 1px solid #9b51e0;
+}
+
+.addPlus .dropdown-menu .living_box {
+  margin: 0;
+}
+
+.addPlus .dropdown-menu .living_box h5 {
+  font-size: 13px;
+  min-height: auto;
+}
+
+.addPlus .dropdown-menu .createTemplate .btn {
+  margin: 0;
+  width: auto;
+  margin-left: 10px;
+}
+
+.addPlus .dropdown-menu .actionBtns .btn {
+  padding: 5px 12px;
+  font-size: 13px;
+  background: #9b51e0;
+  color: #fff;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.addPlus .dropdown-menu .createTemplate .btn {
+  margin: 0;
+  width: auto;
+  height: auto;
+  line-height: 21px;
+  border: 1px solid #9b51e0;
+  padding: 5px 12px;
+  font-size: 13px;
+  background: #9b51e0;
+  color: #fff;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.addPlus .dropdown-menu .createTemplate .btn:focus {
+  border: 1px solid #9b51e0 !important;
+  background: #9b51e0 !important;
+  color: #fff !important;
+}
+
+.ract_tab_data {
+  padding-top: 30px;
+}
+
+.seprate_line {
+  border-right: 1px solid var(--main);
+}
+
+.table > :not(:first-child) {
+  border-top: 1px solid #dddddd;
+}
+
+.table > thead tr th {
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  padding: 10px 15px;
+  color: var(--main);
+}
+
+.top_menubar .nav-tabs {
+  float: left;
+}
+
+.top_menubar {
+  display: inline-block;
+  width: 100%;
+}
+
+.care_plan_list .accordion-item .accordion-header .accordion-button {
+  padding: 15px 2px;
+  border-radius: 0px;
+}
+
+.care_plan_list .accordion-item {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #dedede;
+}
+
+.care_plan_list .accordion-item .accordion-header .accordion-button img {
+  margin-right: 10px;
+}
+
+.care_plan_list
+  .accordion-item
+  .accordion-header
+  .accordion-button:not(.collapsed) {
+  background: transparent;
+  border: none;
+  color: #000;
+  box-shadow: none;
+}
+
+.care_plan_list .accordion-item .accordion-header .accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btns_head .filter_icon {
+  font-size: 21px;
+  margin-left: 13px;
+}
+
+.care_plan_list .accordion-body {
+  padding: 10px 0px;
+}
+
+.wellbeign_list .filter_icon {
+  font-size: 22px;
+  margin-left: 12px;
+  line-height: 27px;
+}
+
+.wellbeign_list input,
+.wellbeign_list input:focus {
+  padding: 6px 15px;
+  border: none !important;
+  border-radius: 5px;
+  outline: none;
+}
+
+.react-mapbox-ac-menu {
+  width: auto;
+  position: absolute;
+  z-index: 9999;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: -1.3rem;
+}
+
+.react-mapbox-ac-input {
+  margin-bottom: 1.5rem;
+}
+
+.react-mapbox-ac-suggestion {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.react-mapbox-ac-suggestion:hover {
+  background-color: #58a;
+}
+
+.search {
+  margin-bottom: 1.5rem;
+}
+
+.react-mapbox-ac-menu {
+  width: 450px;
+  position: absolute;
+  z-index: 9999;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: -1.3rem;
+}
+
+.react-mapbox-ac-input {
+  margin-bottom: 1.5rem;
+}
+
+.react-mapbox-ac-suggestion {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.react-mapbox-ac-suggestion:hover {
+  background-color: #58a;
+}
+
+.catList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.catList li {
+  background: #be0c0c;
+  color: #fff;
+  min-width: 70px;
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.catList li.high {
+  border: 1px solid #be0c0c;
+  background: #fff !important;
+  color: #be0c0c;
+}
+
+.catList li.medium {
+  border: 1px solid #d96a07;
+  background: #fff !important;
+  color: #d96a07;
+}
+
+.catList li.low {
+  border: 1px solid #7d7d7d;
+  background: #fff !important;
+  color: #7d7d7d;
+}
+
+.catList h6 {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 2px;
+}
+
+.living_box {
+  border: 1px solid #bbb2b2;
+  padding: 15px 15px;
+  border-radius: 8px;
+  position: relative;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.living_box.active {
+  border: 1px solid rgb(187, 107, 217);
+}
+
+.living_box p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.living_box .fAction {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  background: #be0c0c;
+  padding: 2px 10px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.living_box h5 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  min-height: 45px;
+}
+
+.viewModal .left .catList {
+  justify-content: left;
+}
+
+.viewModal .left .catList li {
+  padding: 5px 5px;
+  font-size: 14px;
+}
+
+.viewModal .left h6 {
+  font-size: 16px;
+  color: #000;
+  margin: 15px 0px;
+}
+
+.qty_box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.qty_box ul li .checkbox {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  padding: 5px 10px 5px 28px;
+  width: 100%;
+  margin: 2px 0px;
+}
+
+.qty_box ul li .checkbox.active {
+  background: #eac1f9;
+}
+
+.qty_box ul li .checkbox .checkmark {
+  left: 5px;
+  top: 7px;
+}
+
+.qty_box label {
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.viewModal .modal-header .modal-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.viewModal .modal-header .modal-title .btn {
+  background: #9b51e0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 5px 15px;
+  margin-left: 8px;
+}
+
+.viewModal .modal-footer .btn {
+  background: #9b51e0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 5px 15px;
+  margin-left: 8px;
+}
+
+.viewModal .modal-header .btn-close {
+  display: none;
+}
+
+.viewModal .right p {
+  margin-bottom: 25px;
+}
+
+.btn.theme_btn {
+  background: #9b51e0;
+  color: #fff;
+  height: 35px;
+  padding: 0px 15px;
+  margin-left: 13px;
+}
+
+.removeBtn {
+  border: 1px solid #c7c6c6;
+  padding: 0px;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  line-height: 25px;
+  position: absolute;
+  right: 0px;
+  top: 7px;
+  display: flex;
+  justify-content: center;
+}
+
+.viewModal .modal-body {
+  padding: 30px 20px;
+}
+
+.details_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+.details_list li {
+  display: flex;
+  justify-content: space-between;
+  line-height: 35px;
+}
+
+.cont_list {
+  color: #000;
+}
+
+.cont_list strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.profile_img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.profile_img {
+  text-align: right;
+}
+
+.invocing_box {
+  border: 1px solid #9e61e7;
+  padding: 15px 15px;
+  width: 65%;
+  border-radius: 5px;
+}
+
+.invocing_box h6 {
+  color: #9e61e7;
+}
+
+.invocing_box_body {
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.invocing_box_body .invocing_box_content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+}
+
+.invocing_box_body .invocing_box_content ul li strong {
+  font-weight: 500;
+  color: #9e61e7;
+  margin-right: 10px;
+}
+
+.invocing_box_body .invocing_box_content ul li span select {
+  border: none;
+  padding: 0px;
+  color: #67757c;
+}
+
+.invoice_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.invoice_list li {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+
+.clientList .menuList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.clientList .menuList li a {
+  display: flex;
+  text-decoration: none;
+  color: #222;
+  align-items: center;
+  border: 1px solid #e7e7e7;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.clientList .menuList .titlen {
+  background: #fafafa;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e5e5e5;
+}
+.clientList .menuList li a img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.clientList .menuList li a .body {
+  width: 100%;
+  margin-left: 15px;
+}
+.clientList .menuList li a .body p {
+  margin-bottom: 5px;
+}
+
+.clientList .tabbingMenu .nav-pills .nav-item .nav-link {
+  color: #4f4f4f;
+  background: transparent;
+  border-bottom: 3px solid transparent;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 18px;
+}
+.clientList .tabbingMenu .nav-pills .nav-item .nav-link.active {
+  border-bottom: 3px solid #9b51e0;
+}
+.clientList .tabbingMenu .tab-content {
+  margin-top: 20px;
+}
+.clientList .tabbingMenu .nav-pills .nav-item {
+  width: 33.33%;
+}
+.clientList .tabbingMenu .tab-content .TasksList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.clientList .tabbingMenu .tab-content .TasksList li {
+  margin-bottom: 20px;
+}
+.clientList .tabbingMenu .tab-content .TasksList li .listRow {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+.clientList .tabbingMenu .tab-content .TasksList li input[type="checkbox"] {
+  position: absolute;
+  right: 0px;
+  width: 20px;
+  height: 20px;
+}
+.clientList .tabbingMenu .tab-content .TasksList li img {
+  margin-right: 10px;
+}
+.clientList
+  .tabbingMenu
+  .tab-content
+  .TasksList
+  .accordion
+  .accordion-header
+  .accordion-button::after {
+  display: none;
+}
+.clientList
+  .tabbingMenu
+  .tab-content
+  .TasksList
+  .accordion
+  .accordion-header
+  .accordion-button {
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  padding: 0px;
+  background: #fff;
+  box-shadow: none;
+  color: #222;
+}
+.clientList
+  .tabbingMenu
+  .tab-content
+  .TasksList
+  .accordion
+  .accordion-item
+  .accordion-collapse
+  .accordion-body {
+  padding: 10px 0px;
+  margin-bottom: 20px;
+}
+.clientList .tabbingMenu .tab-content .TasksList .accordion .accordion-item {
+  border: none;
+}
+.clientList
+  .tabbingMenu
+  .tab-content
+  .TasksList
+  .accordion
+  .accordion-item
+  .accordion-collapse
+  .accordion-body
+  ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.clientList
+  .tabbingMenu
+  .tab-content
+  .TasksList
+  .accordion
+  .accordion-item
+  .accordion-collapse
+  .accordion-body
+  ul
+  li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.clientList
+  .tabbingMenu
+  .tab-content
+  .TasksList
+  .accordion
+  .accordion-item
+  .accordion-collapse
+  .accordion-body
+  ul
+  li
+  label {
+  margin-right: 20px;
+  min-width: 150px;
+}
+.clientList
+  .tabbingMenu
+  .tab-content
+  .TasksList
+  .accordion
+  .accordion-item
+  .accordion-collapse
+  .accordion-body
+  ul
+  li
+  button {
+  border: none;
+  background: transparent;
+}
+
+.client_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 2px;
+}
+
+.wellbineColor {
+  filter: invert(62%) sepia(29%) saturate(498%) hue-rotate(56deg)
+    brightness(88%) contrast(89%);
+}

@@ -1,0 +1,79 @@
+.themeColor {
+    color: #BB6BD9;
+}
+
+.subscriptionBox .progress-bar{
+    background: #9B51E0;
+}
+
+.promotionalC ul , .profileB ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.profileB ul li {
+    display: flex;
+    justify-content: space-between;
+    line-height: 28px;
+}
+.profileB ul li p {
+    margin: 0;
+}
+.profileB ul li p a{
+    color: #2D9CDB;
+}
+
+.profileB .btn {
+    color: #9B51E0;
+    border: 1px solid #9B51E0;
+    padding: 4px 10px;
+    margin-top: 20px;
+}
+
+.promotionalCode input {
+    width: 100px;
+    border: 1px solid #BB6BD9;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.updateBtn {
+    background: #9B51E0;
+    color: #fff !important;
+    padding: 5px 15px;
+    margin-top: 15px;
+}
+
+
+.planSelect {
+    text-align: center;
+    border: 1px solid #9B51E0;
+    margin: 0;
+    padding: 15px 10px;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.planSelect h5{
+    color: #9B51E0;
+    margin: 0;
+}
+.planSelect input[type="radio"] {
+    width: 25px;
+    height: 25px;
+}
+
+.subscriptionPlan .onoff .slider {
+    width: 100%;
+    height: 25px;
+}
+.subscriptionPlan .onoff {
+    margin: 0px 8px;
+}
+
+.subscriptionPlan {
+    margin-bottom: 30px;
+}
+.subscriptionPlan .onoff input:checked + .slider {
+  background: #C4C4C4;
+}

@@ -1,0 +1,5 @@
+
+.adminSidebar ul :global(.sidebar-item) :global(.sidebar-link) img {
+    filter: invert(250%) sepia(100%) saturate(26%) hue-rotate(730deg)
+      brightness(300%) contrast(300%);
+  }

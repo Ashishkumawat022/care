@@ -1,0 +1,133 @@
+.cardBox h5 {
+  font-size: 20px;
+  border-bottom: 1px solid #9e9999;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.cardBox {
+  margin-bottom: 40px;
+}
+
+.cardBox ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 28px;
+}
+
+.cardBox .editIcon {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contractList {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contractList .contentBody {
+  padding-left: 15px;
+}
+
+.contractList .contentBody p {
+  margin: 0;
+}
+
+.contractList img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.contractList .contentBody :global(.btn) {
+  border: 1px solid #bb6bd9;
+  padding: 3px 15px;
+  color: #bb6bd9;
+  display: flex;
+  align-items: center;
+  line-height: 21px;
+  margin-bottom: 5px;
+
+}
+
+
+.cltDetails .contractList .contentBody {
+  width: 100%;
+}
+
+.page-wrapper {
+  margin-left: 10px !important;
+  padding-top: 0px !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.cardBox ul li {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchContainer {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  position: absolute;
+  width: 92%;
+  list-style: none;
+  max-height: 155px;
+  overflow-y: scroll;
+  border: 1px solid #ced4da;
+}
+
+.dropdown:empty {
+  border: none;
+}
+
+.dropdownRow {
+  cursor: pointer;
+  text-align: start;
+  margin: 2px 0;
+  white-space: nowrap;
+  text-overflow: clip;
+  text-overflow: clip;
+  overflow-x: clip;
+}
+
+.dropdownRow:hover {
+  background: #bdd5fa;
+}
+
+input {
+  width: 220px;
+}
+
+.searchInner {
+  display: flex;
+}

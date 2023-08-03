@@ -1,0 +1,78 @@
+.datePicker {
+    background-color: var(--main);
+    color: #fff;
+    border-radius: 10px !important;
+}
+
+/* .datePicker :global(.react-datepicker-wrapper) {
+    width: 100px !important;
+} */
+/* .dropdowns div {
+    color: #fff;
+} */
+.dropdowns :global(.css-1s2u09g-control) {
+    background-color: var(--main);
+    color: #fff;
+}
+.dropdowns :global(.css-1pahdxg-control) {
+    background-color: var(--main);
+    box-shadow: 0 0 0 1px var(--main);
+    color: #fff;
+}
+.dropdowns :global(.css-1pahdxg-control:hover) {
+    border-color: var(--main);
+}
+.dropdowns :global(.css-1pndypt-Input) {
+    color: #fff;
+}
+.dropdowns :global(.css-qc6sy-singleValue) {
+    background-color: var(--main);
+    color: #fff !important;
+}
+.dropdowns :global(.css-14el2xx-placeholder){
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: #fff;
+}
+/* .dropdowns ::placeholder {
+    color: #fff !important;
+    background-color: var(--main);#BB6BD9
+} */
+
+.btncolor{
+    background-color: #BB6BD9 !important;
+}
+
+.divMargin{
+    margin: 2px 40px;
+}
+
+.graphdiv{
+    margin-top: 25px;
+}
+
+.nameDropdown :global(.css-1pahdxg-control:hover) {
+    border-color: var(--main);
+    box-shadow: 0 0 0 1px var(--main);
+}
+
+.nameDropdown :global(.css-1pahdxg-control) {
+    border-color: var(--main);
+    box-shadow: 0 0 0 1px var(--main);
+}
+/* @media (max-width: 767px) {
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+@media only screen and (min-width: 991px) and (max-width: 6000px) {
+    
+} */

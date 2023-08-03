@@ -1,0 +1,55 @@
+.map_section .map {
+    width: 100%;
+    height: 350px;
+    border: 1px solid #dbdbdb;
+}
+.map_section {
+    background: #fff;
+    padding: 40px 0px;
+}
+.contact_section {
+    background: #FAFAFA;
+    padding: 50px 0px;
+}
+.contact_section .contact_box {
+    background: #fff;
+    padding: 30px 30px;
+    box-shadow: 0 2px 22px 6px #ebebeb;
+}
+.contact_section .contact_box .title h3 {
+    font-size: 24px;
+    color: var(--main);
+}
+.contact_section .contact_box .form-control {
+    height: 45px;
+    font-size: 15px;
+    border-color: #e7e7e7;
+    border-radius: 6px;
+}
+.contact_section .contact_box .form-control:focus {
+    box-shadow: none;
+    border-color: var(--main);
+}
+.contact_section .contact_box .form-group {
+    margin-bottom: 22px;
+}
+.contact_section .contact_box hr {
+    margin:15px 0px 30px 0px !important;
+    height: 2px;
+}
+.contact_section .contact_box .submit_btn {
+    background:var(--main3);
+    padding: 10px 40px;
+    color:#fff;
+}
+.map_section .add_box h5{
+    color: var(--main3);
+    margin-bottom: 18px;
+}
+.map_section .add_box p{
+    margin-bottom: 0px;
+}
+.map_section .add_box {
+    padding: 15px 15px;
+}
+
